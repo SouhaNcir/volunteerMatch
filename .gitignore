@@ -1,0 +1,27 @@
+
+# Django / Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.sqlite3
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Flutter
+mobile/.dart_tool/
+mobile/build/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+
+# IDE
+mobile/.idea/
+mobile/*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
